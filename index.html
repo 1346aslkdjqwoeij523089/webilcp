@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illinois State Roleplay | ER:LC Community</title>
+    <meta name="description" content="Illinois State Roleplay - Premier Emergency Response Roleplay Community in ER:LC. Join State Police, Sheriff, Fire, EMS, and more!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Exo+2:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <img src="https://cdn.discordapp.com/attachments/1472412365415776306/1472412580055089152/isrp.png?ex=69a79293&is=69a64113&hm=8a2a97bc93ca7fa30fb83d48692fe642dbea9a56b883e57654963370d4f63f97&" alt="ISRP Logo" id="loader-logo-img">
+            </div>
+            <div class="loader-spinner"></div>
+            <p>Loading Illinois State Roleplay...</p>
+        </div>
+    </div>
+
+    <!-- Particle Background -->
+    <canvas id="particles"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="https://cdn.discordapp.com/attachments/1472412365415776306/1472412580055089152/isrp.png?ex=69a79293&is=69a64113&hm=8a2a97bc93ca7fa30fb83d48692fe642dbea9a56b883e57654963370d4f63f97&" alt="ISRP Logo">
+                <span>ISRP</span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#departments" class="nav-link">Departments</a>
+                <a href="#rules" class="nav-link">Rules</a>
+                <a href="#join" class="nav-link">Join</a>
+            </div>
+            <a href="https://discord.gg/EWXT6P9cfw" target="_blank" class="nav-discord">
+                <i class="fab fa-discord"></i>
+                <span>Join Discord</span>
+            </a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-logo">
+                <img src="https://cdn.discordapp.com/attachments/1472412365415776306/1472412580055089152/isrp.png?ex=69a79293&is=69a64113&hm=8a2a97bc93ca7fa30fb83d48692fe642dbea9a56b883e57654963370d4f63f97&" alt="ISRP Logo">
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">Illinois State</span>
+                <span class="title-line accent">Roleplay</span>
+            </h1>
+            <p class="hero-tagline">🏆 Premier Emergency Response Roleplay Community</p>
+            <p class="hero-subtitle">Experience immersive law enforcement, fire, and EMS roleplay in Illinois State's most active ER:LC community</p>
+            <div class="hero-buttons">
+                <a href="https://discord.gg/EWXT6P9cfw" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-discord"></i>
+                    Join Our Community
+                </a>
+                <a href="#departments" class="btn btn-secondary">
+                    <i class="fas fa-search"></i>
+                    Explore Departments
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="500">0</span>
+                    <span class="stat-label">+ Members</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="6">0</span>
+                    <span class="stat-label">Departments</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="24">0</span>
+                    <span class="stat-label">/7 Support</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Welcome to</span>
+                <h2 class="section-title">Illinois State Roleplay</h2>
+                <p class="section-subtitle">The premier destination for immersive emergency response roleplay</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who We Are</h3>
+                    <p>Illinois State Roleplay (ISRP) is a dedicated community for Emergency Response: Local Coordinator (ER:LC) players who seek a realistic, professional, and enjoyable roleplay experience. Our community was built on the principles of teamwork, respect, and dedication to the craft of roleplay.</p>
+                    <p>We offer a structured environment where members can grow as roleplayers, develop their characters, and form lasting friendships with like-minded individuals. Whether you're a seasoned veteran or new to ER:LC, ISRP provides the perfect platform to enhance your skills.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Professional Staff</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <span>Active Community</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-calendar-check"></i>
+                            <span>Weekly Events</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-certificate"></i>
+                            <span>Training Programs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h4>ER:LC Focused</h4>
+                        <p>Dedicated to providing the best Emergency Response: Local Coordinator experience</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>Community First</h4>
+                        <p>We prioritize a welcoming and inclusive environment for all players</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Growth Focused</h4>
+                        <p>Training programs and mentorship to help you improve your roleplay</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h4>Regular Events</h4>
+                        <p>Monthly scenarios, competitions, and community gatherings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section class="departments" id="departments">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Choose Your Path</span>
+                <h2 class="section-title">Our Departments</h2>
+                <p class="section-subtitle">Find the perfect role that matches your playstyle and interests</p>
+            </div>
+            <div class="departments-grid">
+                <!-- State Police -->
+                <div class="department-card" data-department="state-police">
+                    <div class="dept-icon">
+                        <i class="fas fa-badge"></i>
+                    </div>
+                    <h3>Illinois State Police</h3>
+                    <p>Highway patrol, criminal investigations, and statewide law enforcement operations.</p>
+                    <div class="dept-tags">
+                        <span>Highway Patrol</span>
+                        <span>CSI</span>
+                        <span>SWAT</span>
+                    </div>
+                    <button class="btn-dept" onclick="openModal('state-police')">
+                        View Details <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Sheriff -->
+                <div class="department-card" data-department="sheriff">
+                    <div class="dept-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>County Sheriff</h3>
+                    <p>Jail operations, court security, county patrol, and civil process serving.</p>
+                    <div class="dept-tags">
+                        <span>Jail</span>
+                        <span>Court Security</span>
+                        <span>Patrol</span>
+                    </div>
+                    <button class="btn-dept" onclick="openModal('sheriff')">
+                        View Details <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Fire Department -->
+                <div class="department-card" data-department="fire">
+                    <div class="dept-icon">
+                        <i class="fas fa-fire-flame-curved"></i>
+                    </div>
+                    <h3>Fire Department</h3>
+                    <p>Firefighting, rescue operations, hazardous materials response, and fire prevention.</p>
+                    <div class="dept-tags">
+                        <span>Firefighting</span>
+                        <span>Rescue</span>
+                        <span>HazMat</span>
+                    </div>
+                    <button class="btn-dept" onclick="openModal('fire')">
+                        View Details <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- EMS -->
+                <div class="department-card" data-department="ems">
+                    <div class="dept-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <h3>Emergency Medical Services</h3>
+                    <p>Emergency medical response, ambulance services, and critical care transport.</p>
+                    <div class="dept-tags">
+                        <span>ALS</span>
+                        <span>BLS</span>
+                        <span>Critical Care</span>
+                    </div>
+                    <button class="btn-dept" onclick="openModal('ems')">
+                        View Details <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Dispatch -->
+                <div class="department-card" data-department="dispatch">
+                    <div class="dept-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Dispatch Center</h3>
+                    <p>911 communications, radio operations, and coordinating emergency responses.</p>
+                    <div class="dept-tags">
+                        <span>911</span>
+                        <span>Radio</span>
+                        <span>Dispatch</span>
+                    </div>
+                    <button class="btn-dept" onclick="openModal('dispatch')">
+                        View Details <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Civilian -->
+                <div class="department-card" data-department="civilian">
+                    <div class="dept-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Civilian</h3>
+                    <p>Businesses, citizens, news media, and various civilian organizations.</p>
+                    <div class="dept-tags">
+                        <span>Businesses</span>
+                        <span>Citizens</span>
+                        <span>Media</span>
+                    </div>
+                    <button class="btn-dept" onclick="openModal('civilian')">
+                        View Details <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Department Modals -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal" id="department-modal">
+            <button class="modal-close" onclick="closeModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-content" id="modal-content">
+                <!-- Dynamic content loaded via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Rules Section -->
+    <section class="rules" id="rules">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Community Standards</span>
+                <h2 class="section-title">Rules & Guidelines</h2>
+                <p class="section-subtitle">Please review our community rules before joining</p>
+            </div>
+            <div class="rules-grid">
+                <div class="rules-column">
+                    <h3><i class="fas fa-gavel"></i> General Rules</h3>
+                    <div class="rule-item">
+                        <button class="rule-toggle">
+                            <span>Respect & Professionalism</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="rule-content">
+                            <p>Treat all community members with respect. Harassment, discrimination, and toxic behavior will not be tolerated. Maintain professionalism in all interactions.</p>
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <button class="rule-toggle">
+                            <span>No Meta Gaming</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="rule-content">
+                            <p>Do not use out-of-character knowledge for in-character actions. Keep IC and OOC separate. Information learned OOC should not influence your roleplay.</p>
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <button class="rule-toggle">
+                            <span>No Power Gaming</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="rule-content">
+                            <p>Your character cannot do impossible actions. All actions must be realistic and allow for counterplay. No "I win" scenarios without proper roleplay setup.</p>
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <button class="rule-toggle">
+                            <span>Roleplay First</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="rule-content">
+                            <p>When in-game events are happening, prioritize roleplay over everything else. Avoid distracted behavior and maintain immersion.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rules-column">
+                    <h3><i class="fas fa-clipboard-list"></i> In-Game Rules</h3>
+                    <div class="rule-item">
+                        <button class="rule-toggle">
+                            <span>Realistic Roleplay</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="rule-content">
+                            <p>Actions must be realistic and follow real-world procedures. Follow traffic laws, proper arrest procedures, and emergency protocols.</p>
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <button class="rule-toggle">
+                            <span>Vehicle Pursuits</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="rule-content">
+                            <p>Follow proper pursuit protocols. Use pit maneuvers, tire deflation devices, or boxing techniques. No ramming vehicles unless authorized.</p>
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <button class="rule-toggle">
+                            <span>Use of Force</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="rule-content">
+                            <p>Use force must be proportional to the threat. Follow the continuum of force. Lethal force only as a last resort when lives are in danger.</p>
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <button class="rule-toggle">
+                            <span>Scene Management</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="rule-content">
+                            <p>Properly secure scenes, establish perimeters, and coordinate with other units. Maintain incident command structure for larger scenes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rules-column">
+                    <h3><i class="fab fa-discord"></i> Discord Rules</h3>
+                    <div class="rule-item">
+                        <button class="rule-toggle">
+                            <span>Server Etiquette</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="rule-content">
+                            <p>Use appropriate channels for discussions. No spamming, flooding, or excessive caps. Keep conversations on-topic for each channel.</p>
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <button class="rule-toggle">
+                            <span>No NSFW Content</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="rule-content">
+                            <p>No NSFW, explicit, or offensive content. This includes images, links, and text. Violations result in immediate permanent ban.</p>
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <button class="rule-toggle">
+                            <span>Advertising</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="rule-content">
+                            <p>No advertising other servers, communities, or services without staff permission. No self-promotion in public channels.</p>
+                        </div>
+                    </div>
+                    <div class="rule-item">
+                        <button class="rule-toggle">
+                            <span>Voice Channel Rules</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="rule-content">
+                            <p>Use push-to-talk in busy channels. No background noise, music, or excessive side conversations. Mute when not speaking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements Section -->
+    <section class="requirements" id="requirements">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Before You Join</span>
+                <h2 class="section-title">Requirements</h2>
+                <p class="section-subtitle">What you need to join our community</p>
+            </div>
+            <div class="requirements-content">
+                <div class="requirements-grid">
+                    <div class="requirement-card">
+                        <div class="req-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h4>Minimum Age</h4>
+                        <p>Must be at least 13 years of age. Some departments may require 16+.</p>
+                    </div>
+                    <div class="requirement-card">
+                        <div class="req-icon">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <h4>Microphone</h4>
+                        <p>Working microphone required for all roleplay activities. Clear audio quality expected.</p>
+                    </div>
+                    <div class="requirement-card">
+                        <div class="req-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h4>ER:LC Game</h4>
+                        <p>Own a copy of Emergency Response: Local Coordinator on Roblox.</p>
+                    </div>
+                    <div class="requirement-card">
+                        <div class="req-icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <h4>Discord</h4>
+                        <p>Must have Discord installed and be able to join our server.</p>
+                    </div>
+                    <div class="requirement-card">
+                        <div class="req-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h4>Knowledge</h4>
+                        <p>Must read and understand all rules. Knowledge test may be required.</p>
+                    </div>
+                    <div class="requirement-card">
+                        <div class="req-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Attitude</h4>
+                        <p>Positive attitude and willingness to learn. Team player essential.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section class="join" id="join">
+        <div class="container">
+            <div class="join-content">
+                <div class="join-badge">
+                    <i class="fab fa-discord"></i>
+                </div>
+                <h2>Ready to Join?</h2>
+                <p>Join our Discord server to start your journey with Illinois State Roleplay</p>
+                <div class="join-features">
+                    <div class="join-feature">
+                        <i class="fas fa-check"></i>
+                        <span>Quick Application Process</span>
+                    </div>
+                    <div class="join-feature">
+                        <i class="fas fa-check"></i>
+                        <span>Helpful Community</span>
+                    </div>
+                    <div class="join-feature">
+                        <i class="fas fa-check"></i>
+                        <span>Active Staff Team</span>
+                    </div>
+                    <div class="join-feature">
+                        <i class="fas fa-check"></i>
+                        <span>Regular Events</span>
+                    </div>
+                </div>
+                <a href="https://discord.gg/EWXT6P9cfw" target="_blank" class="btn-join">
+                    <i class="fab fa-discord"></i>
+                    Join Discord Server
+                    <span class="invite-code">discord.gg/EWXT6P9cfw</span>
+                </a>
+                <p class="join-note">Click to open Discord invite in your browser</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://cdn.discordapp.com/attachments/1472412365415776306/1472412580055089152/isrp.png?ex=69a79293&is=69a64113&hm=8a2a97bc93ca7fa30fb83d48692fe642dbea9a56b883e57654963370d4f63f97&" alt="ISRP Logo">
+                    <h3>Illinois State Roleplay</h3>
+                    <p>Premier ER:LC Community</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#departments">Departments</a>
+                    <a href="#rules">Rules</a>
+                    <a href="#join">Join</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Departments</h4>
+                    <a href="#" onclick="openModal('state-police')">State Police</a>
+                    <a href="#" onclick="openModal('sheriff')">Sheriff</a>
+                    <a href="#" onclick="openModal('fire')">Fire Department</a>
+                    <a href="#" onclick="openModal('ems')">EMS</a>
+                    <a href="#" onclick="openModal('dispatch')">Dispatch</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <a href="https://discord.gg/EWXT6P9cfw" target="_blank" class="social-link discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="#" class="social-link twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Illinois State Roleplay. All rights reserved.</p>
+                <p>Emergency Response: Local Coordinator is a product of <a href="https://www.roblox.com" target="_blank">Roblox</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
